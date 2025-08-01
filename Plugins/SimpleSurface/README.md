@@ -2,7 +2,10 @@
 ## What is it?
 Simple Surface lets you quickly add color and a bit of texture to actors' mesh components.  Useful for visual variation during blockout and prototyping.
 
-https://github.com/user-attachments/assets/4d05b12b-522a-4a56-9002-380fa7f082ef
+<video controls width="600">
+  <source src="https://github.com/user-attachments/assets/4d05b12b-522a-4a56-9002-380fa7f082ef" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 This is a quality-of-life plugin designed to be an easy-to-use, non-intrusive addition to your workflow, to help you achieve some visual variety without needing to create throwaway assets.
 
