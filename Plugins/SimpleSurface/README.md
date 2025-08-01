@@ -1,35 +1,21 @@
-# Simple Surface Plugin
+# Simple Surface
+## What is it?
+Simple Surface lets you quickly add color and a bit of texture to actors' mesh components.  Useful for visual variation during blockout and prototyping.
 
-This is the README for the Simple Surface Plugin.
+https://github.com/user-attachments/assets/4d05b12b-522a-4a56-9002-380fa7f082ef
 
-## Installation
+This is a quality-of-life plugin designed to be an easy-to-use, non-intrusive addition to your workflow, to help you achieve some visual variety without needing to create throwaway assets.
 
-To install the Simple Surface Plugin, follow these steps:
+## How do I use it?
+Add the Simple Surface component to any actor having one or more mesh components.
 
-1. Download the plugin files.
-2. Add the plugin to your project.
-3. Configure the plugin settings as needed.
+![SimpleSurface](https://github.com/user-attachments/assets/a972d4a1-959a-43bc-a616-216e5b9d8e00)
 
-## Usage
+Now you can change its color and some simple surface properties to get a different look:
+* Shininess / Roughness
+* Waxiness / Metalness
+* Texture (normal mapping) intensity, scale, and customization
 
-To use the Simple Surface Plugin, include it in your main application file and initialize it as follows:
+If you remove the component (or deactivate it using Blueprint), the meshes' original materials will be restored.
 
-```javascript
-import SimpleSurface from 'simple-surface-plugin';
-
-const surface = new SimpleSurface(options);
-```
-
-## Features
-
-- Feature 1: Description
-- Feature 2: Description
-- Feature 3: Description
-
-## Contributing
-
-If you would like to contribute to the Simple Surface Plugin, please fork the repository and submit a pull request.
-
-## License
-
-This project is licensed under the MIT License.
+Works with most mesh components available in Unreal Engine 5.5.
