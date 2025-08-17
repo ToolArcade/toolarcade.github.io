@@ -1,7 +1,8 @@
 # ToolArcade Turntable
 ## What is it?
+
 <video controls autoplay muted loop playsinline width="600">
-  <source src="TurntableDemoMap.mp4" type="video/mp4">
+  <source src="Media/TurntableDemoMap.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -15,7 +16,7 @@ The turntable is an editor-only tool, and has no effect in Play-in-Editor or in 
 Add the Turntable component to an actor.  The turntable will start automatically and can be paused, resumed, and stopped using buttons in the Details view.
 
 <video controls autoplay muted loop playsinline width="600">
-  <source src="TurntableLiveDemo.mp4" type="video/mp4">
+  <source src="Media/TurntableLiveDemo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -30,10 +31,13 @@ You can configure the rotation using the component's options:
   * Adjust the curve's shape to achieve different turntable behaviors, or use the provided presets.
 
 ## Configuration tips
-| To achieve this effect...                          | ...use this curve                                                                                       |
-|----------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| Single constant-speed revolution                   | Linear ramp from 0.0 to 1.0                                                                             |
-| Single constant-speed anti-revolution              | Linear ramp from 0.0 to -1.0, _or_ use a negative period.                                               |
-| Slow turn around the front, faster around the back | Ease-in/out curve                                                                                       |
-| Wibble-wobble                                      | Wave curve from 1.0 to -1.0 and back to 1.0                                                             |
-| Revolution with a pause at the end                 | Linear ramp from 0.0 to 1.0 for the first 3/4 of the curve, remain at 1.0 for the last 1/4 of the curve |
+
+You can edit the revolution curve directly in the Details view, or double-click the curve graph to open a separate editing window.
+
+| To achieve this effect...                          | ...as shown here |
+|----------------------------------------------------|--|
+| Single constant-speed revolution                   | ![Linear ramp up](Media/CurveExample_LinearRampUp.png) |
+| Single constant-speed anti-revolution              | ![Linear ramp down](Media/CurveExample_LinearRampDown.png) |
+| Slow turn around the front, faster around the back | ![Eased ramp](Media/CurveExample_Eased.png) |
+| Wibble-wobble                                      | ![Swivel / wibble-wobble](Media/CurveExample_Swivel.png) |
+| Revolution with a pause at the end                 | ![Pause at end](Media/CurveExample_PauseAtEnd.png) |
