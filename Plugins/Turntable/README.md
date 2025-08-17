@@ -1,6 +1,6 @@
 # ToolArcade Turntable
 ## What is it?
-<video controls width="600">
+<video controls autoplay muted loop playsinline width="600">
   <source src="TurntableDemoMap.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
@@ -14,7 +14,7 @@ The turntable is an editor-only tool, and has no effect in Play-in-Editor or in 
 ## How do I use it?
 Add the Turntable component to an actor.  The turntable will start automatically and can be paused, resumed, and stopped using buttons in the Details view.
 
-<video controls width="600">
+<video controls autoplay muted loop playsinline width="600">
   <source src="TurntableLiveDemo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
